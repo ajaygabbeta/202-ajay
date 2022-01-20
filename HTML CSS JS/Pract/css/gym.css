@@ -1,0 +1,37 @@
+body{
+    background: url("../image/og.jpg")
+        no-repeat center center fixed;
+    background-size:cover
+}
+div{
+    background: lightblue;
+    width: 50%;
+    text-align: center;
+    margin: 300px auto;
+    border-radius: 25px;
+   opacity: 0.8;
+    
+}
+button{
+    padding: 0 20px;
+    background: orange;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 30%;
+            
+}
+h1{
+    font-family: 'Goldman', cursive;
+}
+p{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 1.5em;
+}
+i{
+    color: darkmagenta;
+}
+i:hover{
+  color: greenyellow;
+}

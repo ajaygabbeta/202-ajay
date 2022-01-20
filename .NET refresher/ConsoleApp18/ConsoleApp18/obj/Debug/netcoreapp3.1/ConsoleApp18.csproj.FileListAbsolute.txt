@@ -1,0 +1,13 @@
+C:\Users\athis\source\repos\ConsoleApp18\ConsoleApp18\bin\Debug\netcoreapp3.1\ConsoleApp18.exe
+C:\Users\athis\source\repos\ConsoleApp18\ConsoleApp18\bin\Debug\netcoreapp3.1\ConsoleApp18.deps.json
+C:\Users\athis\source\repos\ConsoleApp18\ConsoleApp18\bin\Debug\netcoreapp3.1\ConsoleApp18.runtimeconfig.json
+C:\Users\athis\source\repos\ConsoleApp18\ConsoleApp18\bin\Debug\netcoreapp3.1\ConsoleApp18.runtimeconfig.dev.json
+C:\Users\athis\source\repos\ConsoleApp18\ConsoleApp18\bin\Debug\netcoreapp3.1\ConsoleApp18.dll
+C:\Users\athis\source\repos\ConsoleApp18\ConsoleApp18\bin\Debug\netcoreapp3.1\ConsoleApp18.pdb
+C:\Users\athis\source\repos\ConsoleApp18\ConsoleApp18\obj\Debug\netcoreapp3.1\ConsoleApp18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\athis\source\repos\ConsoleApp18\ConsoleApp18\obj\Debug\netcoreapp3.1\ConsoleApp18.AssemblyInfoInputs.cache
+C:\Users\athis\source\repos\ConsoleApp18\ConsoleApp18\obj\Debug\netcoreapp3.1\ConsoleApp18.AssemblyInfo.cs
+C:\Users\athis\source\repos\ConsoleApp18\ConsoleApp18\obj\Debug\netcoreapp3.1\ConsoleApp18.csproj.CoreCompileInputs.cache
+C:\Users\athis\source\repos\ConsoleApp18\ConsoleApp18\obj\Debug\netcoreapp3.1\ConsoleApp18.dll
+C:\Users\athis\source\repos\ConsoleApp18\ConsoleApp18\obj\Debug\netcoreapp3.1\ConsoleApp18.pdb
+C:\Users\athis\source\repos\ConsoleApp18\ConsoleApp18\obj\Debug\netcoreapp3.1\ConsoleApp18.genruntimeconfig.cache

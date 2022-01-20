@@ -1,0 +1,40 @@
+.btn-secondary{
+    background: linear-gradient(45deg,black,blueviolet);
+    border-radius: 50px;
+}
+.my-heading{
+    background: linear-gradient(45deg,black,purple);
+    box-shadow: 0px 5px 10px black;
+    border-radius: 50px;
+}
+.bg-danger{
+    background: linear-gradient(45deg,black,red);
+}
+.bg-success{
+    background: linear-gradient(45deg,black,green);
+}
+.bg-light-blue, .bg-light-blue:focus{
+    background-color: lightblue;
+}
+.progress{
+    border-radius: 50px;
+    height: 35px;
+    box-shadow: 0 5px 5px black;
+}
+.progress-bar{
+    border-radius: 50px;
+}
+.bg-ligth-success{
+    background: linear-gradient(45deg,black,green) ;
+}
+.bg-light-greenish{
+    background: mediumspringgreen;
+}
+.page-container{
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.pagination{
+    margin: 0;
+}

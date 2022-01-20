@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<HTML>
+<script>
+
+    function filter1(x,y){
+       return x+y;
+    }
+    
+    function filter2(x,y) {
+        return x*y;
+    }
+
+    // Functions in JS can accept functions as a parameter!
+    // Here we have a function that accepts f, which is a function,
+    // since are invoking it as f() inside the body.
+    function imageProcessor(a,b, f) {
+        //document.write("<br>Inside func2 a=" + a + " "+f );
+        //step 1: resize
+        //...
+        //step 10
+
+        var p = f(a,b); // multiply(10,20) step 11
+
+        ///step 12
+        //step 15
+        f();
+
+        // step 17 to 20
+        document.write("<br> " + p);
+    }
+      
+    
+
+    imageProcessor(img1,img2, filter1, filter2); //?? 30
+    imageProcessor(100,210, filter8, filter2); //?? 30
+    imageProcessor(10,20, filter73, filter2); //?? 30
+
+    steps 1 to step 10 of func2
+    filter1()
+    steps 12 to step 15 of func2 
+    filter2()
+    // step 17 to 20
+
+    steps 1 to step 10 of func2
+    filter1()
+    steps 12 to step 15 of func2 
+    filter2()
+    // step 17 to 20
+
+
+
+</script>
+
+
+</HTML>

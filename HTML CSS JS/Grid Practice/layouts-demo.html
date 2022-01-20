@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<style>
+    /* Float CSS */
+
+    .section_float {
+        overflow: hidden;
+    }
+
+    section[class="section_float"] div {
+        border: 2px solid rgb(48, 243, 42);
+        background: #659494;
+        color: white;
+        text-align: center;
+        margin: 5px;
+        padding: 0px;
+
+        float: left;
+        width: 25%;
+    }
+
+    /* Flex CSS */
+    .section_flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section[class="section_flex"] div{
+        border: 2px solid rgb(240, 236, 23);
+        background: #659494;
+        color: white;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+
+        flex-basis: 20%;
+    }
+
+    /* Grid CSS */
+    .section_grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    section[class="section_grid"] div {
+        background: #659494;
+        color: white;
+        border: 2px solid aqua;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .product5 {
+        grid-column: span 3;
+    }
+</style>
+<section class="section_float">
+    <div>product 1</div>
+    <div>product 2</div>
+    <div>product 3</div>
+    <div>product 4</div>
+    <div >product 5 sassaaaaaaaaaaa 
+        dddddddddddddddfffffffffddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+        fffffffffffffffff f sssgggg
+        sdsdsdsd
+        sdsdsd
+        sassaaaaaaaaaaa 
+        dddddddddddddddfffffffffddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+        fffffffffffffffff f sssgggg
+        sdsdsdsd
+        sdsdsd
+        sssssssssssssssssssssssssdddddddd </div>
+    <div>product 6</div>
+    <div>product 7</div>
+    <div class="product5">product 8</div>
+</section>
+
+<br/><br/>
+<section class="section_flex">
+    <div>product 1</div>
+    <div>product 2</div>
+    <div>product 3</div>
+    <div>product 4</div>    
+    <div >product 5 sassaaaaaaaaaaa dddddddddddddddddddddd </div>
+    <div>product 6</div>
+    <div>product 7</div>
+    <div class="product5">product 8</div>
+</section>
+
+<br/><br/>
+<section class="section_grid">
+    <div>product 1</div>
+    <div>product 2</div>
+    <div>product 3</div>
+    <div>product 4</div>
+    <div class="product5">product 5 sassaaaaaaaaaaa dddddddddddddddddddddd </div>
+    <div>product 6</div>
+    <div>product 7</div>
+    <div class="product5">product 8</div>
+</section>
+
+
+</html>
